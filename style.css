@@ -1,0 +1,5 @@
+/* Adds lines through completed tasks */
+.completed {
+  text-decoration: line-through;
+  font-weight: bold;
+}
