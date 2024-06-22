@@ -9,6 +9,7 @@ form.addEventListener("submit", function (e) {
   const newToDo = document.createElement("li");
   const removeBtn = document.createElement("button");
   removeBtn.innerText = "Clear";
+  removeBtn.classList.add("remove");
 
   newToDo.innerText = input.value;
   newToDo.appendChild(removeBtn);
@@ -49,6 +50,7 @@ function loadTodos() {
     const newToDo = document.createElement("li");
     const removeBtn = document.createElement("button");
     removeBtn.innerText = "Clear";
+    removeBtn.classList.add("remove");
     newToDo.innerText = todo.text;
     newToDo.appendChild(removeBtn);
     if (todo.checked) {

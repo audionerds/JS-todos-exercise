@@ -3,3 +3,70 @@
   text-decoration: line-through;
   font-weight: bold;
 }
+
+body {
+  /* padding-top: 50px; */
+background-color: #0D0A0B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 2rem;
+}
+
+h1 {
+  text-align: center;
+font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #3F7D20;
+}
+
+li {
+font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  margin-bottom: 20px;
+  color: #3F7D20;
+}
+
+
+
+input {
+font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 2rem;
+    background-color:#0D0A0B;
+    color: #3F7D20;
+    outline: 2px solid #3F7D20;
+}
+
+label {
+font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #3F7D20;
+  
+}
+
+button {
+ font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  background-color: #0D0A0B;
+  color: #3F7D20;
+  outline: 2px solid #3F7D20;
+  border:none;
+ 
+}
+
+.remove {
+   margin-left: 10px;
+   color: #3F7D20;
+
+}

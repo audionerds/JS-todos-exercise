@@ -6,17 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>To-do List!</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <h1>To-do List!</h1>
     <!--todo form label, input, and submit button-->
     <form action="" id="todo-form">
-      <label for="new-todo">New To Do</label>
-      <input type="text" placeholder="Enter new tasks!!" id="new-todo" />
-      <button>Add New Task</button>
+      <label for="new-todo">New To Do:</label>
+      <input type="text" placeholder="Enter new tasks!" id="new-todo" />
+      <button type="submit">Add New To Do</button>
     </form>
     <!--the list waiting for items created by the form-->
+    <br />
     <ul id="todo-list"></ul>
     <script src="app.js"></script>
   </body>
